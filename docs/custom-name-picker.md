@@ -51,4 +51,4 @@ When the `To` link is selected, `Verse` sends a message to the web application w
 
 Each sample user in the custom name picker has an `Add` button that posts a message back to Verse with the verseApiType `com.ibm.verse.add.contact` and the data of the selected user. Verse uses that data to add the user's name to the `To` field.
 
-The custom name picker application in this tutorial only supports adding single users at a time to the `To` field. Please reference the **[Name Picker](extension-points#alternative-name-picker)** extension point for information on adding multiple users at a time and how to add users to the `Cc` and `Bcc` fields.
+The custom name picker application in this tutorial only supports adding single users at a time to the `To` field. Please reference the **[Name Picker](../extension-points#alternative-name-picker)** extension point for information on adding multiple users at a time and how to add users to the `Cc` and `Bcc` fields.

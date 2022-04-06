@@ -56,7 +56,7 @@ The Templated Link extension is similar to Simple Link and adds a clickable URL 
 To add a template variable to the URL, the text should be added in the following format: **${property}**. When the link is selected by a user, the variable(s) will be replaced with the corresponding value, passed with respect to the `path`/`object`. For example, a templated link placed on the back of the Person Business card will have a different data context than a templated link inside of the Mail Compose View.
 
 :::info
-For more in depth information on the different data contexts take a look at the Verse **[Extension Data API](extension-data-api)** docs.
+For more in depth information on the different data contexts take a look at the Verse **[Extension Data API](../extension-data-api)** docs.
 :::
 
 #### Properties:
@@ -186,7 +186,7 @@ An action must contain either a **path** OR an **object** property.
 This example widget action contributes a button to the Mail Compose view options dropdown menu. When selected web application specified in the corresponding widget URL, will open in a new window with a width of 800px and height of 600px. The new page will also receive the verseDataApi object that includes the `bcc` and `attachment` information.
 
 :::info
-For more in depth information on the different data contexts take a look at the Verse **[Extension Data API](extension-data-api)** docs.
+For more in depth information on the different data contexts take a look at the Verse **[Extension Data API](../extension-data-api)** docs.
 :::
 
 ### Alternative Name Picker
@@ -900,7 +900,7 @@ After a user clicks on the "Send" button, Verse will load the modify on send ext
 }
 ```
 
-For more information regarding the `mail.compose` context object, please refer to the **[Mail Compose](extension-data-api#mail-compose)** context data object.
+For more information regarding the `mail.compose` context object, please refer to the **[Mail Compose](../extension-data-api#mail-compose)** context data object.
 
 </details>
 
@@ -1275,5 +1275,5 @@ You may need to apply for the `!important` tag for some styles to take effect.
 
 The following extension points are supported in offline mode:
 
-- **[Navbar Extension Points](extension-points#navbar-extension-points)**
-- **[CSS Support](extension-points#css-extension-points)**
+- **[Navbar Extension Points](../extension-points#navbar-extension-points)**
+- **[CSS Support](../extension-points#css-extension-points)**

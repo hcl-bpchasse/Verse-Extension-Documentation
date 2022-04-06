@@ -7,7 +7,7 @@ title: What is a Verse Extension?
 
 - `{string}` **name** the name of your extension
 - `{string}` **description** a description of what the extension does
-- `{string}` **type** the extension point for the target extension (**[List of Extension Points](extension-points)**)
+- `{string}` **type** the extension point for the target extension (**[List of Extension Points](../extension-points)**)
 - `{string}` **path** a link to a specific location in the Verse UI (**[Supported Paths](../paths-and-objects#paths)**)
 - `{string}` **object** another way to link to a specific location in the Verse UI (**[Supported Objects](../paths-and-objects#objects)**)
 - `{object}` **payload** a JSON object that contains the supported attributes of the target extension (Ex. url, icon, text, etc.).
@@ -43,4 +43,4 @@ Extension Points define the type of extension being contributed and each extensi
 
 ## [Verse Data API](../extension-data-api)
 
-Some HCL Verse extensions utilize **cross-document messaging** to enable communication between Verse and the extension's JavaScript code. The Verse Data API was created to enable such communication. If you plan on adding any extensions that use the Verse Data API, take a look at the **[Verse Data API](extension-data-api)** documentation to gain a better understanding of how it works.
+Some HCL Verse extensions utilize **cross-document messaging** to enable communication between Verse and the extension's JavaScript code. The Verse Data API was created to enable such communication. If you plan on adding any extensions that use the Verse Data API, take a look at the **[Verse Data API](../extension-data-api)** documentation to gain a better understanding of how it works.
